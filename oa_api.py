@@ -1,7 +1,14 @@
 import openai
+import os
+from dotenv import load_dotenv
 
 # Replace "your_api_key" with your actual OpenAI API key
-openai.api_key = "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"
+# Load environment variables from .env file
+load_dotenv()
+
+# Read the OpenAI API key from an environment variable
+openai.api_key = os.getenv("OPENAI_API_KEY")
+
 
 def read_file(file_path):
     """Reads content from a file."""
