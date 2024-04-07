@@ -16,7 +16,7 @@ This is the output for the easy_ocr model
 
 
 2 HOUR PARKING To 8A.M_ 6P M_ MON THRU FRI EXCEPT VEHICLES With AREA PERMITS 60i g (4 0i
-Remember the time to be considered for checking if parking is allowed is the Sat Apr  6 10:00:57 PM PDT 2024 in PDT.
+Remember the time to be considered for checking if parking is allowed is the Sun Apr  7 12:02:15 AM PDT 2024 in PDT.
 
-Also the response has to be Either Yes or No in the last line based on your analysis and before a line break before the explanation.This is not a definite yes or no. Its your best judgement and if there is no information for the Sat Apr  6 10:00:57 PM PDT 2024 assume its allowed. This is understood by end users as well. Remember the first line of the response is just Yes or no without any spaces
+Also the response has to be Either Yes or No in the last line based on your analysis and before a line break before the explanation.This is not a definite yes or no. Its your best judgement and if there is no information for the Sun Apr  7 12:02:15 AM PDT 2024 assume its allowed. This is understood by end users as well. Remember the first line of the response is just Yes or no without any spaces
 Also an important detail to note is while you can use your existing knowledge to fill in gaps and make judgements on what is written on the parking plate you cannot assume anything about whats not written there. In short we refer to the parking plate as the ultimate source of truth and anything missing from overall present on te board is not to be assumed. For eg if the board mentions Mon Tues and Fri you assume there is no information about other days and so by default it should be okay to park. By default assume its okay to park and use the information from the board to restrict your understanding. Also give a brief description of how you reached this conclusion going through each ocr
